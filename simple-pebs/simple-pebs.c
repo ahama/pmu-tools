@@ -145,6 +145,7 @@ static bool check_cpu(void)
 	}
 	
 	switch (model) { 
+	case 45: /* SandyBridge_EN */
 	case 58: /* IvyBridge */
 	case 63: /* Haswell_EP */
 	case 69: /* Haswell_ULT */
